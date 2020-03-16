@@ -23,6 +23,10 @@ class Student
 
   def talk
     return "I can talk!"
+  end
+
+  def say_favourite_language(language_name)
+    return "I love #{language_name}"
   end 
 
 end
