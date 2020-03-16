@@ -25,16 +25,15 @@ class TestCodeclanStudent < Minitest::Test
 
   def test_set_cohort
     assert_equal("G19", @student.set_cohort("G19"))
+  end
+
+  def test_talk
+    assert_equal("I can talk!", @student.talk)
   end 
 
 
 
 end
-
-
-
-
-
 
 
 =begin
